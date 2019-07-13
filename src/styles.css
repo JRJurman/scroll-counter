@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 0px;
+  overflow-y: none;
+}
+
+/* hide scroll bar */
+body {
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.Page {
+}

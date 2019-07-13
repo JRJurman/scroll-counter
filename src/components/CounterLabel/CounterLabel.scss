@@ -1,0 +1,23 @@
+.CounterLabel {
+  background: inherit;
+  border: none;
+  outline: none;
+  color: inherit;
+  width: 90%;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0 5%;
+}
+
+.CounterLabel::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.5);
+}
+.CounterLabel::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5);
+}
+.CounterLabel:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0, 0, 0, 0.5);
+}
+.CounterLabel:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.5);
+}
