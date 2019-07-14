@@ -1,10 +1,12 @@
 import 'babel-polyfill';
 import { registerHtml, useState, start } from 'tram-one'
+import AppHeader from './components/AppHeader'
 import AddCounter from './components/AddCounter'
 import Counter from './components/Counter'
 import './styles.css'
 
 const html = registerHtml({
+  AppHeader,
   AddCounter,
   Counter
 })
@@ -23,6 +25,7 @@ const home = () => {
 
   return html`
     <div class="Page">
+      <AppHeader />
       ${counters}
       <AddCounter onclick=${incrementTotalCounters}/>
     </div>

@@ -1,0 +1,41 @@
+.AppTopContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AppHeader {
+  padding: 0.3em;
+  font-weight: bold;
+  background: inherit;
+  color: inherit;
+}
+
+.AppControls {
+  font-size: 0.5em;
+
+  input {
+    background: black;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #F2CF59;
+    color: #F2CF59;
+    width: 4em;
+  }
+  // styles to set the input placeholders
+  input::-webkit-input-placeholder { color: #c3a84d; }
+  input::-moz-placeholder { color: #c3a84d; }
+  input:-ms-input-placeholder { color: #c3a84d; }
+
+}
+
+.AppDescription {
+  font-size: 0.5em;
+  font-style: italic;
+  text-align: right;
+  padding: 1em;
+}
+
+.AppDescription > a {
+  color: inherit;
+}

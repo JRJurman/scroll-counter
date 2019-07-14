@@ -3,6 +3,9 @@ body {
   font-size: 2em;
   margin: 0px;
   overflow-y: none;
+  background: black;
+  color: #F2CF59;
+  font-family: 'Inconsolata', monospace;
 }
 
 /* hide scroll bar */
@@ -12,8 +15,4 @@ body {
 }
 body::-webkit-scrollbar {
   display: none;
-}
-
-
-.Page {
 }

@@ -11,3 +11,6 @@ logs
 
 # dependencies
 node_modules
+
+# blueprints - see https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint
+blueprint-templates
