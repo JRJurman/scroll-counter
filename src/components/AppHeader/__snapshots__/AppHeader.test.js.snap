@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader with default props should match snapshot 1`] = `
+"<div class=\\"AppHeader\\"><div class=\\"AppTopContainer\\"><div class=\\"AppTitle\\">Scroll Counter</div><div class=\\"AppControls\\">
+      Min: <input type=\\"number\\" size=\\"4\\" placeholder=\\"-100\\" value=\\"-100\\">
+      Max: <input type=\\"number\\" size=\\"4\\" placeholder=\\"100\\" value=\\"100\\">
+      Start: <input type=\\"number\\" size=\\"4\\" placeholder=\\"0\\" value=\\"0\\"></div></div><div class=\\"AppDescription\\"><a href=\\"https://github.com/jrjurman/scroll-counter\\">Scroll Counter</a>
+        Created By <a href=\\"http://jrjurman.com/\\">Jesse Jurman</a>
+        Made with <a href=\\"https://tram-one.io/\\">Tram-One</a></div></div>"
+`;

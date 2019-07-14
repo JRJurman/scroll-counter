@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppControls with default props should match snapshot 1`] = `
+"<div class=\\"AppControls\\">
+      Min: <input type=\\"number\\" size=\\"4\\" placeholder=\\"-100\\" value=\\"-100\\">
+      Max: <input type=\\"number\\" size=\\"4\\" placeholder=\\"100\\" value=\\"100\\">
+      Start: <input type=\\"number\\" size=\\"4\\" placeholder=\\"0\\" value=\\"0\\"></div>"
+`;

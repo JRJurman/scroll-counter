@@ -4,7 +4,7 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
-    "test": "jest --watch",
+    "test": "jest src --watch",
     "publish": "surge dist --domain https://scroll-counter.surge.sh"
   },
   "dependencies": {

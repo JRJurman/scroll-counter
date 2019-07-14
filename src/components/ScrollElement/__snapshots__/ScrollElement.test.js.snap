@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollElement with default props should match snapshot 1`] = `"<div counter-id=\\"0\\" value=\\"20\\" class=\\"ScrollElement\\">20</div>"`;

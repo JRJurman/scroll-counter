@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollCover with default props should match snapshot 1`] = `
+"<div style=\\"
+    background: linear-gradient(to right, #FFEEDDC9 30%, transparent 40%, transparent 60%, #FFEEDDC9 70%);
+  \\" class=\\"ScrollCover\\"></div>"
+`;
